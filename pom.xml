@@ -207,6 +207,10 @@
                     <groupId>commons-fileupload</groupId>
                     <artifactId>commons-fileupload</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-fileupload2-core</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
